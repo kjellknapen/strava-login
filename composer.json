@@ -1,0 +1,30 @@
+{
+    "name": "KaiBotan/strava-login",
+    "description": "A package that uses the Strava api to login, and has basic get and post requests. For laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kjell Knapen",
+            "email": "knapenkjell@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/support": "^5.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "KjellKnapen\\Strava\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "KjellKnapen\\Strava\\StravaServiceProvider"
+            ],
+            "aliases": {
+                "Strava": "KjellKnapen\\Strava\\StravaFacade"
+            }
+        }
+    }
+}
