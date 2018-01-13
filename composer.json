@@ -1,5 +1,5 @@
 {
-    "name": "KaiBotan/strava-login",
+    "name": "kaibotan/strava-login",
     "description": "A package that uses the Strava api to login, and has basic get and post requests. For laravel",
     "license": "MIT",
     "authors": [
